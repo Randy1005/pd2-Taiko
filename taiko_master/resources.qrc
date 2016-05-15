@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>pics/icon.png</file>
+        <file>pics/start_btn.png</file>
+        <file>pics/start_bg.jpg</file>
+        <file>pics/bigiface.png</file>
+        <file>pics/hornyface.png</file>
+        <file>pics/rail.png</file>
+        <file>pics/game_bg.jpg</file>
+        <file>pics/exit_btn.png</file>
+        <file>pics/lol_face.png</file>
+        <file>pics/cry.png</file>
+        <file>pics/laugh.png</file>
+        <file>pics/mash_pt.png</file>
+        <file>pics/D.png</file>
+        <file>pics/k.png</file>
+        <file>pics/l.png</file>
+        <file>pics/s.png</file>
+        <file>pics/back_btn.png</file>
+        <file>pics/Clock.png</file>
+        <file>pics/suck.jpg</file>
+        <file>pics/good_job.jpg</file>
+        <file>pics/exit_blue.png</file>
+        <file>pics/restart.png</file>
+        <file>pics/finalScore.png</file>
+    </qresource>
+    <qresource prefix="/sound">
+        <file>sound/gotcha.wav</file>
+        <file>sound/hah_gayee.wav</file>
+        <file>sound/headshot.wav</file>
+        <file>sound/huwaa.wav</file>
+        <file>sound/wrong.wav</file>
+    </qresource>
+</RCC>
