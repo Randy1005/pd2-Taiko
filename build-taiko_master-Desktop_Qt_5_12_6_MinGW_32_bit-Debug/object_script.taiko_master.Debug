@@ -1,0 +1,16 @@
+debug/main.o
+debug/mainwindow.o
+debug/scene.o
+debug/button.o
+debug/rail.o
+debug/lol_face.o
+debug/bigi.o
+debug/mash_pt.o
+debug/instr.o
+debug/cntdwn.o
+debug/clock.o
+debug/score.o
+debug/qrc_resources.o
+debug/moc_mainwindow.o
+debug/moc_scene.o
+debug/moc_cntdwn.o

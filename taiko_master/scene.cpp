@@ -105,13 +105,13 @@ void Scene::bgChange()
     this->addItem(s);
 
     //horny face instruction
-    hornyIn = new Bigi();
-    QPixmap horny_pic;
-    horny_pic.load(":/image/pics/hornyface.png");
-    horny_pic = horny_pic.scaled(100,100,Qt::KeepAspectRatio);
-    hornyIn->setPixmap(horny_pic);
-    hornyIn->setPos(260,450);
-    this->addItem(hornyIn);
+    excitingIn = new Bigi();
+    QPixmap exciting_pic;
+    exciting_pic.load(":/image/pics/excitingface.png");
+    exciting_pic = exciting_pic.scaled(100,100,Qt::KeepAspectRatio);
+    excitingIn->setPixmap(exciting_pic);
+    excitingIn->setPos(260,450);
+    this->addItem(excitingIn);
 
     d = new Instr();
     QPixmap d_pic;
@@ -242,7 +242,7 @@ void Scene::bgResult()
     this->removeItem(rail);
     this->removeItem(lol_face);
     this->removeItem(madIn);
-    this->removeItem(hornyIn);
+    this->removeItem(excitingIn);
     this->removeItem(laughIn);
     this->removeItem(cryIn);
     this->removeItem(s);
@@ -406,13 +406,13 @@ void Scene::geneBigi()
         }
         else if(rand_list[i]==2)
         {
-            Bigi *horny = new Bigi();
-            QPixmap horny_pic;
-            horny_pic.load(":/image/pics/hornyface.png");
-            horny_pic = horny_pic.scaled(80,80,Qt::KeepAspectRatio);
-            horny->setPixmap(horny_pic);
-            horny->setSpeed(1);
-            bigi_list.push_back(horny);
+            Bigi *exciting = new Bigi();
+            QPixmap exciting_pic;
+            exciting_pic.load(":/image/pics/excitingface.png");
+            exciting_pic = exciting_pic.scaled(80,80,Qt::KeepAspectRatio);
+            exciting->setPixmap(exciting_pic);
+            exciting->setSpeed(1);
+            bigi_list.push_back(exciting);
         }
         else if(rand_list[i]==3)
         {
@@ -457,7 +457,7 @@ void Scene::keyPressEvent(QKeyEvent *event)
                     wrong->play();
 
             }
-            if(rand_list[i]==2) //if encoounter "horny" face
+            if(rand_list[i]==2) //if encoounter "exciting" face
             {
                 if(event->key()==Qt::Key_D)
                 {

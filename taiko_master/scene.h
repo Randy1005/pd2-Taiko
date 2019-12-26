@@ -60,7 +60,7 @@ public:
     Rail *rail;
     Mash_pt *mash;
     Bigi *madIn;
-    Bigi *hornyIn;
+    Bigi *excitingIn;
     Bigi *laughIn;
     Bigi *cryIn;
     Instr *s;
