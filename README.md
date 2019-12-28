@@ -5,7 +5,7 @@
 
 ## Installation / Building Instructions
 - install Git for Windows
-- run Git Bash or GUI
+- run Git Bash or GUI by right-clicking anywhere
 - clone the project with :
 ```
     git clone https://github.com/Randy1005/pd2-Taiko.git
